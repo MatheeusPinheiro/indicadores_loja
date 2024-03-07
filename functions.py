@@ -20,7 +20,7 @@ def pegar_dia(vendas):
 
 
 def criar_pasta_backup(dicionario_lojas, indicador):
-    caminho_backup =  Path(r'Backup Arquivos Lojas')
+    caminho_backup =  Path(r'Arquivos Lojas')
     arquivos_pasta_backup = caminho_backup.iterdir()
 
     listar_arquivos = [arquivo.name for arquivo in arquivos_pasta_backup]

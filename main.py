@@ -1,5 +1,4 @@
 import pandas as pd
-from pathlib import Path
 from functions import *
 
 
@@ -10,6 +9,8 @@ def main():
     emails_df = pd.read_excel(r'Bases de Dados\Emails.xlsx')
     lojas_df =  pd.read_csv(r'Bases de Dados\Lojas.csv', encoding='latin1', sep=';')
     vendas_df = pd.read_excel(r'Bases de Dados\Vendas.xlsx')
+
+    
 
     #Juntando a tabela de vendas com a de Lojas
     vendas = mesclar_panilhas(vendas_df, lojas_df)
