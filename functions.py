@@ -1,4 +1,3 @@
-# import pandas as pd
 from pathlib import Path
 
 def mesclar_panilhas(vendas, lojas):
