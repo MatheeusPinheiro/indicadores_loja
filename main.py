@@ -5,9 +5,6 @@ from functions import *
 
 
 
-
-
-
 def main():
     
     emails_df = pd.read_excel(r'Bases de Dados\Emails.xlsx')
